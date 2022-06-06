@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/novocontato.css">
+
+
+</head>
+<body>
+    <div class="viewContainer">
+        
+            <header>
+                <h1>  <%=name %>    </h1>
+            </header>
+            
+                    <form class="formcontato" action="" method="POST">
+                    
+                    <div class="questionwrapper">
+                    <div class="question">
+                    <label for="title">Titulo do contato</label>
+                    <input name="title" class="inp-contact" type="text" placeholder="Ex: Facebook">
+                    </div>
+                    
+                    <div class="question">
+                    <label for="contato">Endereço do contato</label>
+                    <input name="contato" class="inp-contact" type="text" placeholder="Ex: facebook.com.br ">
+                    </div>
+                    </div>
+
+
+                    <button type="submit" class="button green">Enviar</button>
+                    </form>
+                </div>
+    
+</body>
+</html>

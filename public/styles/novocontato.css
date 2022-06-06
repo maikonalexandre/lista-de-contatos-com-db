@@ -1,0 +1,35 @@
+.viewContainer{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+
+    padding: 1.5rem 4rem;
+    position: relative;
+}
+
+.button{
+    height: 2.4rem;
+    width: 6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 0;
+
+    border: 1px solid rgb(29, 27, 27);
+    
+}
+label{
+    display: block;
+
+}
+.button.green{
+    background-color: rgb(130, 130, 130);
+    color: rgb(18, 18, 18);
+}
+.inp-contact{
+    width: calc((50% + 2.4rem));
+    border: 1px solid rgb(68, 68, 68);
+    margin-bottom: 1rem;
+}

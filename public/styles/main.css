@@ -1,0 +1,79 @@
+.viewContainer{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+
+    padding: 1.5rem 4rem;
+    position: relative;
+}
+.findContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 4rem;
+}
+.findContact .busca{
+    width: 100%;
+}
+.findContact .btn-busca{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.contacts{
+    display:flex;
+    align-items: center;
+    justify-content:center ;
+
+    margin-bottom: 1.5rem;
+}
+.button{
+    height: 2.4rem;
+    width: 6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 0;
+
+    border: 1px solid rgb(29, 27, 27);
+    
+}
+.button.green{
+    background-color: rgb(130, 130, 130);
+    color: rgb(18, 18, 18);
+}
+.button.red{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+.button.blue{
+    background-color: rgb(75, 75, 75);
+    color: black;
+
+}
+.button.gray{
+    background-color: darkgrey;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    border-radius: .8rem;
+
+}
+.inp-contact{
+    width: calc((100% + 2.4rem) - 12rem);
+
+    border: 1px solid rgb(68, 68, 68);
+
+    pointer-events: none;
+    outline: none;
+}
+.inp-contact._1{
+    width: calc((100% + 2.4rem) - 6rem);
+
+    border: 1px solid rgb(68, 68, 68);
+
+    pointer-events: none;
+    outline: none;
+}

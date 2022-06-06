@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 62,5%;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Kanit', sans-serif;
+  
+}
+h1{
+    font-size: 4rem;
+    color: rgb(68, 68, 68);
+}
+input{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    height: 2.4rem;
+    font-size: 1.2rem;
+    padding-left: .8rem;
+}
+.form{
+    width: calc(100%);
+    display: flex;
+}
