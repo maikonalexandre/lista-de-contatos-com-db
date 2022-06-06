@@ -9,5 +9,6 @@
 <li>SQlite,</li>
 <li>Express</li>
 <hr>
+
 Meu principal desafio foi o pouco conhecimento usando o node, mas após ter feito a trilha e colocado em prática sei, sem dúvidas que subi mais um nível.
 :)
